@@ -14,3 +14,4 @@ class Flights < Formula
   test do
     assert_match "flights", shell_output("#{bin}/flights --help")
   end
+end
